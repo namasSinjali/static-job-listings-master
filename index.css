@@ -105,6 +105,10 @@ main{
     overflow: hidden;
     cursor: pointer;
 }
+.card.company .filter-tablets>span:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 0%, 100%);
+}
 #filters-card{
     font-size: .9rem;
     font-weight: 700;
@@ -145,6 +149,9 @@ main{
 #filters-card .clear-btn{
     color: hsl(180, 8%, 52%);
     cursor: pointer;
+}
+#filters-card .clear-btn{
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 760px) {
