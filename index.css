@@ -39,21 +39,21 @@ main{
 .card.company.hide{
     display: none;
 }
-.card.company  .logo{
+.card.company .logo{
     width: 3rem;
     height: 3rem;
     margin-top: -1.5rem;
     padding: 0;
 }
-.card.company  h1{
+.card.company h1{
     font-size: .9rem;
     font-weight: 700;
 }
-.card.company  h1 .company{
+.card.company h1 .company{
     color:hsl(180, 29%, 50%);
     margin-right: 0.5rem;
 }
-.card.company  .tag{
+.card.company .tag{
     background-color: hsl(180, 29%, 50%);
     font-size: .7rem;
     text-transform: uppercase;
@@ -62,18 +62,18 @@ main{
     margin-right: .3rem;
     border-radius: 100vh;
 }
-.card.company  .tag.featured{
+.card.company .tag.featured{
     background-color: hsl(180, 14%, 20%);
 }
-.card.company  h2{
+.card.company h2{
     font-size: 1rem;
     cursor: pointer;
 }
-.card.company  h2:hover{
+.card.company h2:hover{
     color: hsl(180, 29%, 50%);
 }
 
-.card.company  .more-info{
+.card.company .more-info{
     color: hsl(180, 8%, 52%);
     font-size: .9rem;
 }
@@ -150,7 +150,7 @@ main{
     color: hsl(180, 8%, 52%);
     cursor: pointer;
 }
-#filters-card .clear-btn{
+#filters-card .clear-btn:hover{
     text-decoration: underline;
 }
 
